@@ -1,0 +1,65 @@
+/*
+Colors:
+    Dark purple: #2F2235
+    Light purple/blue: #817DF2
+    Coral: #F67E7D
+    Off white: #F5F6F4
+*/
+
+body
+{
+    font-family: "Catamaran";
+}
+
+h1
+{
+    font-size: 5em;
+    color: #F5F6F4;
+    background-color: #2F2235;
+    text-align: center;
+    margin: 0;
+    width: 98vw;
+    height: 98vh;
+    padding-top: 3%;
+}
+
+.coral
+{
+    color: #F67E7D;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2F2235;
+}
+  
+li 
+{
+    float: left;
+}
+  
+li a 
+{
+    display: block;
+    color: #F5F6F4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover 
+{
+    color: #F67E7D;
+    background-color: #543d5e;
+}
+
+.footer
+{
+    background-color: #2F2235;
+    color: #F5F6F4;
+    font-size: 0.75em;
+}
