@@ -7,6 +7,11 @@ Colors:
     Off white: #F5F6F4
 */
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     font-family: "Catamaran";
@@ -30,7 +35,7 @@ h1
     color: #F67E7D;
 }
 
-ul 
+ul .nav
 {
     list-style-type: none;
     margin: 0;
@@ -39,9 +44,9 @@ ul
     background-color: #2F2235;
 }
   
-li 
+li .nav
 {
-    float: left;
+    float: right;
 }
   
 li a 
